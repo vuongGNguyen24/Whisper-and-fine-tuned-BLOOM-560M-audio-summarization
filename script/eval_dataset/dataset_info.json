@@ -1,0 +1,66 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "vietnamese-summarization",
+  "dataset_size": 206924465,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/OpenHust/vietnamese-summarization@c62ecacab1734ddeda45814650ea62468b63833a/Kmeans_1024_new.csv": {
+      "num_bytes": 32253647,
+      "checksum": null
+    },
+    "hf://datasets/OpenHust/vietnamese-summarization@c62ecacab1734ddeda45814650ea62468b63833a/Kmeans_512_new.csv": {
+      "num_bytes": 25005238,
+      "checksum": null
+    },
+    "hf://datasets/OpenHust/vietnamese-summarization@c62ecacab1734ddeda45814650ea62468b63833a/Kmeans_512_token_new.csv": {
+      "num_bytes": 29078284,
+      "checksum": null
+    },
+    "hf://datasets/OpenHust/vietnamese-summarization@c62ecacab1734ddeda45814650ea62468b63833a/bio_medicine.csv": {
+      "num_bytes": 33565610,
+      "checksum": null
+    },
+    "hf://datasets/OpenHust/vietnamese-summarization@c62ecacab1734ddeda45814650ea62468b63833a/herding_512_bio_medicine.csv": {
+      "num_bytes": 25051657,
+      "checksum": null
+    },
+    "hf://datasets/OpenHust/vietnamese-summarization@c62ecacab1734ddeda45814650ea62468b63833a/herding_bio_medicine.csv": {
+      "num_bytes": 32251141,
+      "checksum": null
+    },
+    "hf://datasets/OpenHust/vietnamese-summarization@c62ecacab1734ddeda45814650ea62468b63833a/herding_prompt_512_bio_medicine.csv": {
+      "num_bytes": 29141628,
+      "checksum": null
+    }
+  },
+  "download_size": 206347205,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "summary": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 413271670,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 206924465,
+      "num_examples": 74564,
+      "dataset_name": "vietnamese-summarization"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
